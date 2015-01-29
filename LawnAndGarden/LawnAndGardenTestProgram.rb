@@ -11,9 +11,10 @@ class LawnAndGarden
     lawnMowing  = Service.new("Lawn Mowing", "Vroom")
     treeClimbing  = Service.new("Tree Climbing", "We climb trees")
 
+    services = [hedgeCutting,leafCleanup,lawnMowing,treeClimbing]
+
     signUpForm1= SignUpForm.new(customer1, services) 
 
-    services = [hedgeCutting,leafCleanup,lawnMowing,treeClimbing]
 
     puts signUpForm1.inspect
 end

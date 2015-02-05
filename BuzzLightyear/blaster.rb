@@ -6,7 +6,6 @@ class Blaster
     @power = power
   end
 
-
   def shoot
     if @power > 0 
       puts "pew"

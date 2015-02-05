@@ -10,7 +10,7 @@ class Blaster
   def shoot
     if @power > 0 
       puts "pew"
-      @power = @power -= 2 unless @power.zero?
+      @power -= 1 unless @power.zero?
     else
       puts "Blaster is out of power!"
     end
